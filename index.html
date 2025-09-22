@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Recipes</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fffaf5;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #ff6f61;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+        }
+        nav h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('food-banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        /* Content Section */
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .recipe-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .recipe-card img {
+            width: 100%;
+            display: block;
+        }
+        .recipe-card h2 {
+            margin: 15px;
+            color: #ff6f61;
+        }
+        .recipe-card ul, .recipe-card ol {
+            margin: 0 20px 20px 40px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h1>Foodie Recipes</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero" id="home">
+        Welcome to Foodie Recipes 🍝
+    </section>
+
+    <!-- Recipes Section -->
+    <section class="container" id="recipes">
+        <h1 style="color:#ff6f61;">Our Top Recipes</h1>
+
+        <!-- Recipe Card -->
+        <div class="recipe-card">
+            <img src="pasta.jpg" alt="Pasta Recipe">
+            <h2>Delicious Pasta</h2>
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>200g pasta</li>
+                <li>2 tbsp olive oil</li>
+                <li>2 cloves garlic</li>
+                <li>1 cup cherry tomatoes</li>
+                <li>Fresh basil leaves</li>
+                <li>Parmesan cheese</li>
+            </ul>
+            <h3>Instructions:</h3>
+            <ol>
+                <li>Boil pasta according to package instructions.</li>
+                <li>Sauté garlic in olive oil.</li>
+                <li>Add tomatoes and cook until soft.</li>
+                <li>Mix pasta with sauce, top with basil & cheese.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="container" id="about">
+        <h1 style="color:#ff6f61;">About Us</h1>
+        <p>We are passionate food lovers sharing easy and delicious recipes you can make at home. From pasta to desserts, our mission is to make cooking fun and tasty!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Foodie Recipes | Made with ❤️
+    </footer>
+
+</body>
+</html>
+
+
