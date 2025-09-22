@@ -37,17 +37,6 @@ It showcases delicious recipes in a simple, elegant, and mobile-friendly design.
 
 
 ---
-
-📸 Screenshots
-
-🏠 Hero Section  
-![Hero Banner](food-banner.jpg)  
-
- 🍝 Recipe Card  
-![Recipe Card](pasta.jpg)  
-
----
-
  🤝 Contributing
 Contributions are always welcome! 🎉  
 
